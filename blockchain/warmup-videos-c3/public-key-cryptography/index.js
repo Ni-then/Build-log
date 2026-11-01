@@ -22,3 +22,7 @@ console.log(uint8Arr)
 // b[2] = 300;  // 44  (256 ke baad 44 aur = 44)
 
 // 300 mein se ek poora chakkar(256) hata do, to bacha 44. Yehi 300 % 256 = 44 hai.
+
+let str = "hello";
+const binaryRepresentation = new TextEncoder().encode(str);
+console.log(binaryRepresentation);
