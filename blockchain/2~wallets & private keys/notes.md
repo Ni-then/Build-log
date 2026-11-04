@@ -23,3 +23,12 @@ Solana first wallet: m/44'/501'/0'
 Solana second wallet: m/44'/501'/1'
 ETH first wallet: m/44'/60'/0'/0/0
 ETH second wallet: m/44'/60'/0'/0/1
+
+
+
+Note : from mnemonic , we can derive the wallets (private and public keys)
+but from the wallets we cannot derive the mnemonic
+
+Interview question 
+solana , BTC , eth ka user balance kaha pr store hota hai ?
+How does backpack knows ki user ke kitne wallets hai?
