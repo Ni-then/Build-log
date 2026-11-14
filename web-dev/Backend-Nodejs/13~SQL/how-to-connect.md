@@ -8,3 +8,6 @@ CREATE TABLE IF NOT EXISTS users (
 2>Create a user and connect with the neon db with {pg}
 
 curl -X POST http://localhost:3000/create-user -H "Content-Type: application/json" -d "{\"username\":\"nithen\",\"password\":\"1234\"}"
+
+3> Fetch a user from the db
+curl -s http://localhost:3000/get-user/nithen
