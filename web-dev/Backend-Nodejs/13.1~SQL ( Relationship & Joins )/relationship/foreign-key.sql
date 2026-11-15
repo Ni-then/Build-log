@@ -24,3 +24,5 @@ CREATE TABLE addresses (
 -- FOREIGN KEY (user_id) REFERENCES users(id)
 
 -- Matlab: addresses.user_id mein sirf wahi value aa sakti hai jo users.id mein already exist karti hai.
+
+-- ON DELETE CASCADE : means if i delete a user from the users table , so uske sath uske address bhi delete ho jaayege ,
